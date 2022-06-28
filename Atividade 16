@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    float quantidade,valor,salariototal;
+    
+    printf("\nNumero de maçãs compradas: ");
+    scanf("%f",&quantidade);
+    
+    if(quantidade>=12){
+        valor=1.00;
+    } else {
+        valor=1.30;
+    }
+    
+    salariototal = quantidade * valor;
+    
+    printf("O valor total é R$%.2f", salariototal);
+
+    return 0;
+}
