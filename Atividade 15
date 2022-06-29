@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{  
+    float n;
+    
+    printf("insira o valor: ");
+    scanf("%f",&n);
+    
+    if( n>=0){
+        printf("posivito");
+    }
+    else{
+        printf("negativo");
+    }
+
+    return 0;
+}
