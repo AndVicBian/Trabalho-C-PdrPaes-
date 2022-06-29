@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    float n1, n2, n3, m;
+
+    printf("informe as notas: ");
+    scanf("%f",&n1);
+    scanf("%f",&n2);
+    scanf("%f",&n3);
+
+    m = n1 + n2 + n3 / 3;
+
+    printf("\nA media do aluno foi %.2f",m);
+
+    return 0;
+}
