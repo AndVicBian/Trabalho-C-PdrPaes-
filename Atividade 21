@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main(){
+    
+    int inicio, fim, res;
+    
+    printf("\tUse apenas o formato 24h");
+    printf("\n\tA que horas o jogo começou: ");
+    scanf("%d",&inicio);
+    
+    printf("\n\tA que horas o jogo terminou: ");
+    scanf("%d",&fim);
+    
+    if(inicio>=fim){
+        
+        inicio = inicio - 24;
+        
+        res = fim - inicio;
+        
+        printf("\n\tO jogo durou %d horas", res);
+        
+    }
+    else{
+    res = fim - inicio;
+    
+    printf("\n\tO jogo durou %d horas", res);
+    }
+}
