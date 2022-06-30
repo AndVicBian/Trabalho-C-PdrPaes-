@@ -1,0 +1,22 @@
+int main()
+{
+    int a,b;
+    
+    printf("Insira dois valores: ");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    
+    if(a > b){
+        printf("%d-",b);
+        printf("%d",a);
+    }
+    if(a < b) {
+        printf("%d-",a);
+        printf("%d",b);
+    }
+    if(a == b){
+        printf("os valores sao iguais");
+    }
+    
+    return 0;
+}
